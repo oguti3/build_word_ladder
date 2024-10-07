@@ -291,7 +291,7 @@ int main(int argc, char* argv[]) {
     }
 
     // interactive user-input sets the dictionary file;
-    //  check that file exists; if not, user enters another file
+    // check that file exists; if not, user enters another file
     FILE* fileTry = fopen(dict,"r");
     while (fileTry == NULL) {
         printf("Dictionary file %s not found...\n", dict);
