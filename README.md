@@ -9,3 +9,6 @@ specified max ladder height, then a start and final word. These can also be inpu
 arguments which are "-n", "-m", "-d", "-s", and "-f" respectively. Starting from the start word user is then 
 asked to input valid words until you reach the final word AND have number of words equal to ladder height, 
 otherwise program will terminate with an incomplete ladder.
+
+Learned:
+ - C memory allocation/deallocation
